@@ -10,27 +10,27 @@ This is a "port" of the immensely useful "US keyboard with Estonian letters" Lin
 
 ```
 mkdir -p ~/Library/Keyboard\ Layouts; \
-  curl -Sso ~/Library/Keyboard\ Layouts/us_ee.keylayout \
-  https://raw.githubusercontent.com/madisp/us-ee-keylayout-osx/master/us_ee.keylayout
+curl -Sso ~/Library/Keyboard\ Layouts/us_ee.keylayout https://raw.githubusercontent.com/ahoa/us-ee-keylayout-osx/master/us_ee.keylayout \
+     -Sso ~/Library/Keyboard\ Layouts/us_ee.icns https://raw.githubusercontent.com/ahoa/us-ee-keylayout-osx/master/us_ee.icns
 ```
 
 ## Differences from the Standard U.S. Layout
 
-<table>
-<tr><th>Key Combination</th><th>Character</th><tr>
-<tr><td>⌥ + ]</td><td>õ</td></tr>
-<tr><td>⌥ + '</td><td>ä</td></tr>
-<tr><td>⌥ + ;</td><td>ö</td></tr>
-<tr><td>⌥ + [</td><td>ü</td></tr>
-<tr><td>⌥ + s</td><td>š</td></tr>
-<tr><td>⌥ + z</td><td>ž</td></tr>
-<tr><td>⌥ + e</td><td>€</td></tr>
-<tr><td>⇧ + ⌥ + ]</td><td>Õ</td></tr>
-<tr><td>⇧ + ⌥ + '</td><td>Ä</td></tr>
-<tr><td>⇧ + ⌥ + ;</td><td>Ö</td></tr>
-<tr><td>⇧ + ⌥ + [</td><td>Ü</td></tr>
-<tr><td>⇧ + ⌥ + s</td><td>Š</td></tr>
-<tr><td>⇧ + ⌥ + z</td><td>Ž</td></tr>
-</table>
+| Key Combination   | Character |
+|-------------------|-----------|
+| ⌥ + ]             | õ         |
+| ⌥ + '             | ä         |
+| ⌥ + ;             | ö         |
+| ⌥ + [             | ü         |
+| ⌥ + s             | š         |
+| ⌥ + z             | ž         |
+| ⇧ + 4             | €         |
+| ⌥ + e             | €         |
+| ⇧ + ⌥ + ]         | Õ         |
+| ⇧ + ⌥ + '         | Ä         |
+| ⇧ + ⌥ + ;         | Ö         |
+| ⇧ + ⌥ + [         | Ü         |
+| ⇧ + ⌥ + s         | Š         |
+| ⇧ + ⌥ + z         | Ž         |
 
 Created with the wonderful Ukelele OS X keyboard layout editor.

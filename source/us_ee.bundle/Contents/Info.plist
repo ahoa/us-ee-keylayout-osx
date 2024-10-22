@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.keyboardlayout.us_ee</string>
+	<key>CFBundleName</key>
+	<string>us_ee</string>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>KLInfo_U.S. klaviatuur Eesti klahvidega</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<true/>
+		<key>TISInputSourceID</key>
+		<string>com.apple.keyboardlayout.us_ee.u.s.klaviatuureestiklahvidega</string>
+		<key>TISIntendedLanguage</key>
+		<string>et</string>
+	</dict>
+	<key>KLInfo_U.S. with Estonian keys</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<true/>
+		<key>TISInputSourceID</key>
+		<string>com.apple.keyboardlayout.us_ee.u.s.withestoniankeys</string>
+		<key>TISIntendedLanguage</key>
+		<string>en</string>
+	</dict>
+</dict>
+</plist>

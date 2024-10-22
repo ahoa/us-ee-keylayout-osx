@@ -10,8 +10,7 @@ This is a "port" of the immensely useful "US keyboard with Estonian letters" Lin
 
 ```
 mkdir -p ~/Library/Keyboard\ Layouts; \
-curl -Sso ~/Library/Keyboard\ Layouts/us_ee.keylayout https://raw.githubusercontent.com/ahoa/us-ee-keylayout-osx/master/us_ee.keylayout \
-     -Sso ~/Library/Keyboard\ Layouts/us_ee.icns https://raw.githubusercontent.com/ahoa/us-ee-keylayout-osx/master/us_ee.icns
+curl -L -o ~/Downloads/us_ee.bundle.zip https://raw.githubusercontent.com/ahoa/us-ee-keylayout-osx/master/us_ee.bundle.zip && unzip ~/Downloads/us_ee.bundle.zip -d ~/Library/Keyboard\ Layouts/ && rm ~/Downloads/us_ee.bundle.zip
 ```
 
 ## Differences from the Standard U.S. Layout
